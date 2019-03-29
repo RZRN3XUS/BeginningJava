@@ -7,7 +7,7 @@ Version 2.0
  */
 
 public class Challenge1 {
-    public static final int SIZE = 8;
+    public static final int SIZE = 16;
     public static void main(String[] args) {
         diamond("/", "*", "\\", " ", "|");
     }
