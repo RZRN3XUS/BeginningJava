@@ -23,6 +23,6 @@ public class Testmath {
         System.out.println("Random number is " + Math.random());
         Random randy = new Random(10);
         int randy2 = randy.nextInt(10);
-        System.out.println(randy);
+        System.out.println(randy2);
     }
 }
