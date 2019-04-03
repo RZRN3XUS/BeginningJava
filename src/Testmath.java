@@ -22,7 +22,7 @@ public class Testmath {
         System.out.println(squarert + " = square root of product");
         System.out.println("Random number is " + Math.random());
         Random randy = new Random(10);
-        int randy2 = randy.nextInt(10);
+        int randy2 = randy.nextInt(11)+40;
         System.out.println(randy2);
     }
 }
