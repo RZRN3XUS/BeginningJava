@@ -1,5 +1,5 @@
 import java.util.*;
-public class PhoneNumber {
+public class EmailRead {
     public static void main(String[] args){
         String address;
         String domain;
