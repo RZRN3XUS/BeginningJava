@@ -4,6 +4,7 @@ public class CoinCount {
         int quarters;
         int nickels;
         int dimes;
+        double value;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter number of quarters");
         quarters = sc.nextInt();
@@ -11,6 +12,8 @@ public class CoinCount {
         dimes = sc.nextInt();
         System.out.println("Enter number of nickels");
         nickels = sc.nextInt();
-        System.out.println("The dollar amount of these coins is $"+ (quarters*.25+dimes*.1+nickels*.05));
+        value = quarters*0.25+nickels*0.05+dimes*0.1;
+        System.out.print("The dollar amount of these coins is $");
+        System.out.printf("%.2f%n" , value);
     }
 }
