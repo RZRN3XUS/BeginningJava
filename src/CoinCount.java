@@ -1,3 +1,9 @@
+/*
+Christopher Dycus
+Takes number of quarters dimes and nickels
+Gets dollar amount
+4/16/2019
+ */
 import java.util.*;
 public class CoinCount {
     public static void main(String[] args){

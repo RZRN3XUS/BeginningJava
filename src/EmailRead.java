@@ -1,3 +1,8 @@
+/*
+Christopher Dycus
+Slice email username and domain
+4/16/2019
+ */
 import java.util.*;
 public class EmailRead {
     public static void main(String[] args){
