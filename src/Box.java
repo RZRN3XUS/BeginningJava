@@ -1,15 +1,14 @@
 public class Box {
-    private int width;
-    private int length;
-    private int height;
+    private double width;
+    private double length;
 
-    public void setDimension() {
+    public Box() {
         width = 1;
         length = 1;
     }
-    public void setDims() {
-        width = 1;
-        length = 1;
+    public Box(double width1, double length1) {
+        width = width1;
+        length = length1;
     }
 
     public void SetWidth(int width1) {
@@ -20,15 +19,11 @@ public class Box {
         length = length1;
     }
 
-    public void SetHeight(int height1) {
-        height = height1;
-    }
-
-    public int getWidth() {
+    public double getWidth() {
         return width;
     }
 
-    public int getLength() {
+    public double getLength() {
         return length;
     }
 
@@ -36,11 +31,11 @@ public class Box {
         return "Width = " + width + "and Length = " + length;
     }
 
-    public void Area(int length1, int width1) {
-        System.out.println("Area = " + length1 * width1);
+    public void Area() {
+        System.out.println("Area = " + length * width);
     }
 
-    public void Volume(int length1, int width1, int height1) {
-        System.out.println("Volume = " + length1 * width1 * height1);
+    public void Volume(double height) {
+        System.out.println("Volume = " + length * width * height);
     }
 }
